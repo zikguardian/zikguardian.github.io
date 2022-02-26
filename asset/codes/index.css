@@ -1,0 +1,46 @@
+section {
+    background-color: #444444;
+    color: white;
+    background: linear-gradient(-358deg, #00000000 15%, #444444 0%);
+}
+
+section div h1 {
+    padding-left: 5%;
+    font-size: 45px;
+    margin: auto;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+section blockquote {
+    text-align: center;
+}
+
+section blockquote a {
+    color: white;
+}
+
+fieldset {
+    background-color: aquamarine;
+    color: black;
+}
+
+fieldset h3 a {
+    background-color: rgb(162, 250, 221);
+    color: rgb(44, 44, 44);
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+      color: #444;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+      color: white;
+    }
+  }

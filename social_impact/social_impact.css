@@ -1,0 +1,30 @@
+section {
+    background-color: black;
+    color: white;
+    background: linear-gradient(-358deg, #00000000 15%, black 0%);
+}
+
+section h1 {
+    animation-duration: 3s;
+    animation-name: rightslidein;
+    margin-left: 3%;
+}
+
+section p {
+    animation-duration: 3.3s;
+    animation-name: rightslidein;
+    margin-left: 5%;
+}
+
+@keyframes rightslidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+        color: black;
+    }
+
+    to {
+        width: 100%;
+        color: white;
+    }
+}
