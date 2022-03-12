@@ -1,46 +1,65 @@
-section {
-    background-color: #444444;
-    color: white;
-    background: linear-gradient(-358deg, #00000000 15%, #444444 0%);
+#welcome {
+  background-color: #444444;
+  color: white;
+  /* background: linear-gradient(2deg, #ffffff00 15%, #444444 0%); */
 }
 
-section div h1 {
-    padding-left: 5%;
-    font-size: 45px;
-    margin: auto;
-    animation-duration: 3s;
-    animation-name: slidein;
+#welcome div h1 {
+  padding-left: 5%;
+  font-size: 45px;
+  margin: auto;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
-
-section blockquote {
-    text-align: center;
+#welcome blockquote {
+  text-align: center;
 }
 
-section blockquote a {
-    color: white;
+#welcome blockquote a {
+  color: white;
+}
+
+#content {
+  display: flex;
+  flex: 1;
+  background-color: skyblue;
+}
+
+#content div {
+  width: 33%;
+  height: 50px;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 fieldset {
-    background-color: aquamarine;
-    color: black;
+  background-color: aquamarine;
+  color: black;
 }
 
 fieldset h3 a {
-    background-color: rgb(162, 250, 221);
-    color: rgb(44, 44, 44);
+  background-color: rgb(162, 250, 221);
+  color: rgb(44, 44, 44);
+}
+
+.content {
+  display: flex;
+  flex: 1;
 }
 
 @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-      color: #444;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-      color: white;
-    }
+  from {
+    margin-left: 100%;
+    width: 300%;
+    color: #444;
   }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    color: white;
+  }
+}
