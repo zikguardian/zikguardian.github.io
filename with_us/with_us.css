@@ -1,30 +1,35 @@
 section {
   background-color: black;
   color: white;
-  background: linear-gradient(-358deg, #00000000 15%, black 0%);
+  /* background: linear-gradient(-358deg, #00000000 15%, black 0%); */
 }
 
 section h1 {
-  animation-duration: 3s;
-  animation-name: rightslidein;
+  animation-duration: 1s;
+  animation-name: focus-in-contract-bck;
   margin-left: 3%;
 }
 
 section p {
-  animation-duration: 3.3s;
-  animation-name: rightslidein;
+  animation-duration: 1.3s;
+  animation-name: focus-in-contract-bck;
   margin-left: 5%;
 }
 
-@keyframes rightslidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-    color: black;
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
   }
-
-  to {
-    width: 100%;
-    color: white;
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
   }
 }
