@@ -1,6 +1,7 @@
 <details>
 	<summary>1.0.0 version patches (ver name : Ant)</summary>
 		<div markdown="1">
+			
 			1.0.0 (2022.02.07) : zikguardian.github.io 개설
 
 			1.1.0 (2022.02.07) : 회원가입 기능 개설, 로그인 기능 개선, 추후 공개 예정 알림 추가
