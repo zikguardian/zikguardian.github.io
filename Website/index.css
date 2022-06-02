@@ -20,13 +20,13 @@
   color: white;
 }
 
-#content {
+.content {
   display: flex;
   flex: 1;
   background-color: skyblue;
 }
 
-#content div {
+.content div {
   width: 33%;
   height: 50px;
   margin: 20px;
@@ -43,11 +43,6 @@ fieldset {
 fieldset h3 a {
   background-color: rgb(162, 250, 221);
   color: rgb(44, 44, 44);
-}
-
-.content {
-  display: flex;
-  flex: 1;
 }
 
 @keyframes slidein {

@@ -23,10 +23,10 @@
                     </div>
                     <div>
                         <div>
-                            <a class="form_item_name">ID</a>
+                            <a class="form_item_name">닉네임</a>
                         </div>
                         <div>
-                            <input type="text" name="username" placeholder="name" class="form_input" />
+                            <input type="text" name="username" placeholder="닉네임 조건 : 영어/한국어/숫자" class="form_input" />
                         </div>
                         <div class="form_text_alert_padding">
                             <div id="alert_username" class="form_text_alert"></div>
@@ -34,10 +34,10 @@
                     </div>
                     <div>
                         <div>
-                            <a class="form_item_name">이메일</a>
+                            <a class="form_item_name">아이디</a>
                         </div>
                         <div>
-                            <input type="text" name="email" placeholder="E-mail" class="form_input" />
+                            <input type="email" name="email" placeholder="아이디 조건 : 이메일" class="form_input" />
                         </div>
                         <div class="form_text_alert_padding">
                             <div id="alert_email" class="form_text_alert"></div>
@@ -45,10 +45,11 @@
                     </div>
                     <div>
                         <div>
-                            <a class="form_item_name">비밀번호</a>
+                            <a class="form_item_name">패스워드</a>
                         </div>
                         <div>
-                            <input type="password" name="password" placeholder="Enter password" class="form_input" />
+                            <input type="password" name="password" placeholder="패스워드 조건 : 영어 대소문자/숫자/특수기호"
+                                class="form_input" />
                         </div>
                         <div class="form_text_alert_padding">
                             <div id="alert_password" class="form_text_alert"></div>
@@ -56,22 +57,30 @@
                     </div>
                     <div>
                         <div>
-                            <a class="form_item_name">비밀번호 확인</a>
+                            <a class="form_item_name">패스워드 확인</a>
                         </div>
                         <div>
-                            <input type="password" name="password2" onfocus="" placeholder="Enter password again"
+                            <input type="password" name="password2" onfocus="" placeholder="패스워드를 다시 한 번 입력하세요."
                                 class="form_input" />
                         </div>
                         <div class="form_text_alert_padding">
                             <div id="alert_password2" class="form_text_alert"></div>
                         </div>
                     </div>
+
+                    <div>
+                        회원가입을 하면 DNA Games의 <br>
+                        <a href="http://naver.com">개인 정보 처리 방침</a>에 <br>
+                        동의 하는 것으로 간주합니다.
+                    </div>
+                    <br />
                     <div style="height: 10px;"></div>
                     <div>
                         <button type="button" class="form_submit_button"
                             onclick="location.href='https://zikguardian.github.io'"> 회원가입
                         </button>
                     </div>
+
                 </form>
             </div>
         </div>
