@@ -57,6 +57,9 @@
 <details>
   <summary>2.0.0 Version Patches (ver name : Bear</summary>
     <div markdown="1">
-      2.0.0 (2022.05.22) : Fast, Simple, Strong 
+      
+      2.0.0 (2022.05.22) : Fast, Simple, Strong
+      
+      2.0.1 (2022.06.02) : 일부 인터페이스를 개선했습니다.
   </div>
 </details>
