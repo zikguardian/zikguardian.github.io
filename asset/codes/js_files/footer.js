@@ -6,6 +6,7 @@ document.write(`
                 margin-left: 20px;
             }
     </style>
+    <br><br>
     <hr>
     <h3>DNA Games 팔로우 하기</h3>
     <ul>
