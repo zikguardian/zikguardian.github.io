@@ -55,7 +55,7 @@
 </details>
 
 <details>
-  <summary>2.0.0 Version Patches (ver name : Bear</summary>
+  <summary>2.0.0 Version Patches (ver name : Bear)</summary>
     <div markdown="1">
       
       2.0.0 (2022.05.22) : Fast, Simple, Strong
