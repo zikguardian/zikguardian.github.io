@@ -5,7 +5,7 @@ document.write(`
                 display: inline;
                 margin-left: 20px;
             }
-            .help img {
+            .DNA_Logo {
                 width: 20px;
                 height: 20px;
             }
