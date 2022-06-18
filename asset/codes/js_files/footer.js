@@ -5,6 +5,10 @@ document.write(`
                 display: inline;
                 margin-left: 20px;
             }
+            .help img {
+                width: 20px;
+                height: 20px;
+            }
     </style>
 
     <br><br>
