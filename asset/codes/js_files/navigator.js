@@ -1,7 +1,7 @@
 document.write(`
     <nav class="navbar">
         <div class="navbar_logo">
-            <img src="https://zikguardian.github.io/asset/image/logo2.png" width="45" height="45" alt="Logo">
+            <img src="https://zikguardian.github.io/asset/image/LOGO 3.PNG" width="45" height="45" alt="Logo">
             <a href="https://zikguardian.github.io">DNA Games</a>
         </div>
 

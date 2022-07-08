@@ -41,10 +41,12 @@ a {
 .navbar_menu li {
   padding: 8px 12px;
 }
+
 .navbar_menu li:hover {
   background-color: var(--accent-color);
   border-radius: 4px;
 }
+
 .navbar_icons {
   list-style: none;
   color: var(--text-color);

@@ -5,9 +5,9 @@ document.write(`
                 display: inline;
                 margin-left: 20px;
             }
-            .DNA_Logo {
-                width: 25px;
-                height: 25px;
+            .help img {
+                width: 20px;
+                height: 20px;
             }
     </style>
 
@@ -26,10 +26,10 @@ document.write(`
     <hr>
 
     <div class="help">
-    <img src="http://zikguardian.github.io/asset/image/logo2.png" alt="" class="DNA_Logo">
-        <a href="http://zikguardian.github.io/asset/codes/html/policy.html target="_blank">개인정보처리방침</a> |
-        <a href="http://zikguardian.github.io/asset/codes/html/legal.html target="_blank">서비스약관</a> |
-        <a href="http://zikguardian.github.io/asset/codes/html/support.html target="_blank">고객지원</a> 
+    <img src="http://zikguardian.github.io/asset/image/LOGO 3.PNG" alt="" class="DNA_Logo">
+        <a href="http://zikguardian.github.io/asset/codes/html/policy.html target="_blank">개인정보처리방침</a>
+        <a href="http://zikguardian.github.io/asset/codes/html/legal.html target="_blank">서비스 약관</a>
+        <a href="http://zikguardian.github.io/asset/codes/html/support.html target="_blank">고객지원</a>
     </div>
 
     <div class="DNA_info">

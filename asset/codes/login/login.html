@@ -8,7 +8,7 @@
         media="all" />
     <script src="https://zikguardian.github.io/asset/codes/login/login.js" type="text/javascript"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://zikguardian.github.io/asset/image/logo2.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://zikguardian.github.io/asset/image/LOGO 3.PNG">
 
 </head>
 
@@ -20,59 +20,61 @@
                 <form name="login_form" action="/cookie" method="get">
                     <p style="text-align:right;"><a href="https://zikguardian.github.io"> X </a></p>
                     <div class="form_title_div">
-                            <p class="form_title_p">로그인</p>
+                        <p class="form_title_p">로그인</p>
+                    </div>
+
+                    <h5>로그인 하려면 아이디과 패스워드를 입력하세요</h5>
+
+                    <!--Email-->
+
+                    <div>
+
+                        <div>
+                            <a class="form_item_name">아이디</a>
+                        </div>
+
+                        <div>
+                            <input type="email" name="id" placeholder="아이디 조건 : 이메일" class="form_input" />
+                        </div>
+
+                        <div class="form_text_alert_padding">
+                            <div id="alert_email" class="form_text_alert"></div>
+                        </div>
+
+                    </div>
+
+                    <!--password-->
+
+                    <div>
+
+                        <div>
+                            <a class="form_item_name">패스워드</a>
+                        </div>
+
+                        <div>
+                            <input type="password" name="password" placeholder="패스워드 조건 : 대소문자/숫자/특수기호"
+                                class="form_input" />
+                        </div>
+
+                        <div class="form_text_alert_padding">
+                            <div id="alert_password" class="form_text_alert"></div>
+                        </div>
+
+                    </div>
+
+                    <div style="height: 10px;"></div>
+                    <div>
+                        <button type="button" class="form_submit_button"
+                            onclick="location.href='https://zikguardian.github.io'">로그인</button>
+                    </div>
+
+                    <div style="text-align:center">
+                        <h5><a href="http://zikguardian.github.io/asset/codes/login/sign_in.html">아직 회원이 아니신가요?</a></h5>
+                    </div>
+
+                </form>
             </div>
-
-            <h5>로그인 하려면 아이디과 패스워드를 입력하세요</h5>
-
-            <!--Email-->
-
-            <div>
-
-                <div>
-                    <a class="form_item_name">아이디</a>
-                </div>
-
-                <div>
-                    <input type="email" name="id" placeholder="아이디 조건 : 이메일" class="form_input" />
-                </div>
-
-                <div class="form_text_alert_padding">
-                    <div id="alert_email" class="form_text_alert"></div>
-                </div>
-
-            </div>
-
-            <!--password-->
-
-            <div>
-
-                <div>
-                    <a class="form_item_name">패스워드</a>
-                </div>
-
-                <div>
-                    <input type="password" name="password" placeholder="패스워드 조건 : 대소문자/숫자/특수기호" class="form_input" />
-                </div>
-
-                <div class="form_text_alert_padding">
-                    <div id="alert_password" class="form_text_alert"></div>
-                </div>
-
-            </div>
-
-            <div style="height: 10px;"></div>
-            <div>
-                <button type="button" class="form_submit_button" onclick="location.href='https://zikguardian.github.io'">로그인</button>
-            </div>
-
-            <div style="text-align:center">
-                <h5><a href="./sign_in.html">아직 회원이 아니신가요?</a></h5>
-            </div>
-
-            </form>
         </div>
-    </div>
     </div>
 </body>
 
