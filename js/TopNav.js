@@ -12,7 +12,7 @@ document.getElementById("nav").innerHTML = `
 					<li>
 						<a href="Games.html">게임</a>
 						<ul>
-							<li><a href="./Games/SpaceHeroes.html">스페이스 히어로즈 (Space Heroes)</a></li>
+							<li><a href="./Games/GalaxyHeroes.html">갤럭시 히어로즈 (Galaxy Heroes)</a></li>
 							<li><a href="#">2번 게임</a></li>
 							<li><a href="#">3번 게임</a></li>
 							<li>
