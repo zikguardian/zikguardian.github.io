@@ -5,8 +5,8 @@ document.getElementById("Footer").innerHTML = `
   <div class="title">Information</div>
   <div class="container">
     <h3 style="text-align: center;">한국어&emsp;▲</h3> <br>
-    <img src="./images/DNAGamesIncLogo.png"
-      style="height: 100px; width:100px; margin-left: auto; margin-right: auto; display: block" alt="">
+    <img src="./images/DNAGamesCI_DNAGamesViolet.png"
+      style="height: 100px; width:auto; margin-left: auto; margin-right: auto; display: block" alt="">
   </div>
   <br>
   <div style="text-align: center;">
