@@ -1,6 +1,4 @@
 document.getElementById("Footer").innerHTML = `
-<header class="style1">
-</header>
 <section id="footer" class="wrapper">
   <div class="title">Information</div>
   <div class="container">
@@ -11,10 +9,10 @@ document.getElementById("Footer").innerHTML = `
   <br>
   <div style="text-align: center;">
     <a href="https://twitter.com" style="text-decoration:none">X</a>&emsp;
-    <a href="https://www.facebook.com" style="text-decoration:none">FB</a>&emsp;
-    <a href="https://www.reddit.com" style="text-decoration:none">R</a>&emsp;
-    <a href="https://www.instagram.com" style="text-decoration:none">I</a>&emsp;
-    <a href="https://www.youtube.com/@DNAGamesInc" style="text-decoration:none">YT</a>
+    <a href="https://www.facebook.com" style="text-decoration:none">FacceBook</a>&emsp;
+    <a href="https://www.reddit.com" style="text-decoration:none">Reddit</a>&emsp;
+    <a href="https://www.instagram.com" style="text-decoration:none">Instagram</a>&emsp;
+    <a href="https://www.youtube.com/@DNAGamesInc" style="text-decoration:none">Youtube</a>
   </div>
   <br>
   <div style="text-align:center;">
