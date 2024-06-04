@@ -2,7 +2,7 @@ document.getElementById("Footer").innerHTML = `
 <section id="footer" class="wrapper">
   <div class="title">Information</div>
   <div class="container">
-    <h3 style="text-align: center;">한국어&emsp;▲</h3> <br>
+    <h3 style="text-align: center;">한국어&emsp;🌎</h3> <br>
     <img src="./images/DNAGamesCI_DNAGamesViolet.png"
       style="height: 100px; width:auto; margin-left: auto; margin-right: auto; display: block" alt="">
   </div>
