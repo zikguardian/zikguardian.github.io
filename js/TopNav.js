@@ -1,12 +1,23 @@
-document.getElementById("nav").innerHTML = `
-  
+//oH! dId yOu tHiNk tHeRe wAs aNy tReAsUrE HeRe?
+document.getElementById("nav").innerHTML = ` 
 <nav id="nav">
 				<ul>
-					<li class="current"><a href="index.html">Home</a>
+					<li class="current"><a href="index.html">홈</a>
 						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">소개</a></li>
-							<li><a href="#">역사</a></li>
+							<li><a href="http://www.dnagamescorp.com">Home</a></li>
+							<li><a href="./Intro.html">소개</a>
+								<ul>
+										<li><a href="#">Dream</a></li>
+										<li><a href="#">Adventure</a></li>
+										<li><a href="#">Network</a></li>
+									</ul>
+								</li>
+							<li><a href="#">역사</a>
+								<ul>
+									<li><a href="#"></a>Test1</li>
+									<li><a href="#"></a>Test2</li>
+								</ul>
+							</li>
 						</ul>
 					</li>
 					<li>
@@ -17,7 +28,6 @@ document.getElementById("nav").innerHTML = `
 							<li><a href="#">3번 게임</a></li>
 							<li>
 								<a href="#">4번 게임</a>
-
 							</li>
 							<li><a href="#">에그 시리즈</a>
 								<ul>

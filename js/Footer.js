@@ -1,3 +1,4 @@
+//oH! tHeRe's a gReAt tReAsUrE HuNtEr!
 document.getElementById("Footer").innerHTML = `
 <section id="footer" class="wrapper">
   <div class="title">Information</div>
