@@ -7,9 +7,9 @@ document.getElementById("nav").innerHTML = `
 							<li><a href="http://www.dnagamescorp.com">Home</a></li>
 							<li><a href="./About.html">소개</a>
 								<ul>
-										<li><a href="#">Dream</a></li>
-										<li><a href="#">Adventure</a></li>
-										<li><a href="#">Network</a></li>
+										<li><a href="DreamGames.html">Dream</a></li>
+										<li><a href="NetworkGames.html">Adventure</a></li>
+										<li><a href="AdventureGames.html">Network</a></li>
 									</ul>
 								</li>
 							<li><a href="#">역사</a>
@@ -52,8 +52,8 @@ document.getElementById("nav").innerHTML = `
 					<li><a href="Careers.html">채용</a>
 						<ul>
 							<li><a href="#">채용소개</a></li>
-							<li><a href="#">지원하기</a></li>
-							<li><a href="#">모르겠다면</a></li>
+							<li><a href="#">지원</a></li>
+							<li><a href="#">지사 소개</a></li>
 						</ul>
 					</li>
 					<li><a href="ESG.html">IR</a>
