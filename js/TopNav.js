@@ -12,7 +12,7 @@ document.getElementById("nav").innerHTML = `
 										<li><a href="AdventureGames.html">Network</a></li>
 									</ul>
 								</li>
-							<li><a href="#">역사</a>
+							<li><a href="History.html">역사</a>
 								<ul>
 									<li><a href="#"></a>Test1</li>
 									<li><a href="#"></a>Test2</li>
