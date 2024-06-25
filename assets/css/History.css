@@ -1,0 +1,41 @@
+.timeline-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.timeline-button-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.timeline-button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.timeline-button.active {
+  background-color: #6667ab;
+  color: white;
+}
+
+.timeline-content {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.timeline-item {
+  display: none;
+}
+
+.timeline-item.active {
+  display: block;
+}
