@@ -18,7 +18,7 @@
   overflow: hidden;
 }
 
-.card .circle::before {
+/*.card .circle::before {
   content: "";
   position: absolute;
   top: 0;
@@ -28,10 +28,29 @@
   background-color: #fddb53;
   clip-path: circle(120px at center);
   transition: 3s;
+}*/
+
+.card .circle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/Moon.png");
+  background-size: cover;
+  background-position: center;
+  clip-path: circle(120px at center);
+  transition: 3s;
 }
 
-.card:hover .circle::before {
+/*.card:hover .circle::before {
   background-color: #102941;
+  clip-path: circle(800px at center);
+}*/
+
+.card:hover .circle::before {
+  background-image: url("../../images/Universe.png"); /* black 배경 이미지 */
   clip-path: circle(800px at center);
 }
 
