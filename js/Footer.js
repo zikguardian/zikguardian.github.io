@@ -17,9 +17,9 @@ document.getElementById("Footer").innerHTML = `
   </div>
   <br>
   <div style="text-align:center;">
-    <a style="text-decoration:none; font-size:18px; color:grey;" href="#">개인정보 처리방침</a>&emsp;
-    <a style="text-decoration:none; font-size:18px; color:grey;" href="#">법률 관련 문서</a>&emsp;
-    <a style="text-decoration:none; font-size:18px; color:grey;" href="#">이용 약관</a>&emsp;
+    <a style="text-decoration:none; font-size:18px; color:grey;" href="./Service/Private.html">개인정보 처리방침</a>&emsp;
+    <a style="text-decoration:none; font-size:18px; color:grey;" href="./Service/Legal.html">법률 관련 문서</a>&emsp;
+    <a style="text-decoration:none; font-size:18px; color:grey;" href="./Service/Terms.html">서비스 약관</a>&emsp;
     <a style="text-decoration:none; font-size:18px; color:grey;" href="#">쿠키정보 처리방침</a>&emsp;
     <a style="text-decoration:none; font-size:18px; color:grey;" href="#">쿠키 설정</a>
   </div>
